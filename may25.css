@@ -1,0 +1,45 @@
+html, body {
+  width: 100%;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+  color: #141413;
+}
+
+.main {
+  margin: 50px auto;
+  /* border: 1px solid red; */
+}
+
+#input {
+  padding: 5px;
+}
+
+#addButton {
+  padding: 5px 7px;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+.list-div {
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+#xButton, .xButton {
+  margin: 0px 12px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
